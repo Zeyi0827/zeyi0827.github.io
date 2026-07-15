@@ -10,8 +10,10 @@
   --line: #d6d8d3;
   --tag: #eef3ef;
   --tag-line: #ccd9d1;
-  --accent: #176b87;
-  --accent-2: #2f855a;
+  --accent: #2563eb;
+  --accent-2: #1d4ed8;
+  --thu-purple: #660874;
+  --thu-purple-hover: #4f065c;
   --award: #a4511d;
   --shadow: 0 16px 40px rgba(41, 52, 61, 0.07);
   --max-width: 940px;
@@ -56,6 +58,15 @@ a {
 a:hover {
   color: var(--accent-2);
   text-decoration: underline;
+}
+
+a.thu-link {
+  color: var(--thu-purple);
+  font-weight: 600;
+}
+
+a.thu-link:hover {
+  color: var(--thu-purple-hover);
 }
 
 img {
