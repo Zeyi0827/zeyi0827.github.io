@@ -163,19 +163,19 @@ section {
 
 .bio-section {
   display: grid;
-  grid-template-columns: 138px 1fr;
+  grid-template-columns: 172px 1fr;
   gap: 28px;
   align-items: start;
 }
 
 .bio-avatar {
-  width: 138px;
+  width: 172px;
 }
 
 .bio-avatar img {
   display: block;
-  width: 132px;
-  height: 132px;
+  width: 166px;
+  height: 166px;
   object-fit: cover;
   border: 2px solid var(--line);
   border-radius: 50%;
