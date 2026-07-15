@@ -192,6 +192,43 @@ section {
   margin-bottom: 0;
 }
 
+.bio-more {
+  display: none;
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.93rem;
+  line-height: 1.68;
+}
+
+.bio-more.is-expanded {
+  display: block;
+}
+
+.bio-more p {
+  margin: 0;
+}
+
+.bio-toggle {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 10px;
+  min-height: 26px;
+  padding: 3px 8px;
+  border: 1px solid var(--tag-line);
+  border-radius: 4px;
+  background: var(--tag);
+  color: var(--muted);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  line-height: 1.25;
+  cursor: pointer;
+}
+
+.bio-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 .badge-row {
   display: flex;
   flex-wrap: wrap;
@@ -226,6 +263,7 @@ section {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  gap: 7px;
   min-height: 34px;
   padding: 6px 13px;
   border: 1.5px solid var(--line);
@@ -242,6 +280,17 @@ section {
   color: var(--accent);
   background: rgba(255, 255, 255, 0.86);
   text-decoration: none;
+}
+
+.social-btn img {
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.social-btn .icon-round {
+  border-radius: 50%;
 }
 
 .content-panel {
